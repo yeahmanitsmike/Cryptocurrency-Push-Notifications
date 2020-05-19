@@ -15,5 +15,8 @@ Getting Slack Set up
 8. When the app has been created, you will be redirected to the app's settings webpage. From here, you will click on the "Incoming Webhooks" button in the middle of the page. On the next page, toggle the "Activate Incoming Webhooks" switch to on. 
 9. Once the switch is on, you will go to the bottom the page and click the "Add New Webhook to Workspace" button. This will take you to page that allows you to choose the channel the app will be placed in. Place the app in the new channel you made in Step 3.
 10. After that, the curl request will now display with your personal Slack channel URL. Copy that curl request.
-11. Now, go into the Bash script in this repo and paste it to 
+11. Now, go into the Bash script in this repo and paste it to Line 8 in the Bash Script. You are now set up on the Slack end of things. 
+
+Getting CoinMarketCap API Set Up
+1. 
 

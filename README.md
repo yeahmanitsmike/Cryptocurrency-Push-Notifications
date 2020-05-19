@@ -18,5 +18,15 @@ Getting Slack Set up
 11. Now, go into the Bash script in this repo and paste it to Line 8 in the Bash Script. You are now set up on the Slack end of things. 
 
 Getting CoinMarketCap API Set Up
-1. 
+1. Navigate to https://coinmarketcap.com/api/ 
+2. Do not worry! CoinMarketCap has a free version of their API. 
+3. Click the "GET YOUR API KEY NOW" button in the middle of the page and sign up on the next page. Click their "Basic Plan."
+4. Once you signed up, you will be redirected to your account's web page. From here move your mouse cursor under the "API Key" section and click "COPY KEY."
+5. You now have the API Key. So go into the python script and paste your API key into Line 8. 
+6. Congrats you are all set up!
+
+Running the Script
+1. From here, all you have to do is run the script!
+2. Type "python3 btc_sms.py" and your script will send a notification to your Slack channel every hour. 
+
 

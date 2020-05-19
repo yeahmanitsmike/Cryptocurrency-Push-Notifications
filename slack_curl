@@ -1,0 +1,9 @@
+#!/bin/bash
+
+price=$1
+change=$2
+#echo "$change"
+#echo "$price"
+
+curl -X POST -H 'Content-type: application/json' --data '{"text": "BTC Price: $'"$price"'\nPercent Change: '"$change"'%"}' ****INSERT_SLACK_URL_HERE****
+

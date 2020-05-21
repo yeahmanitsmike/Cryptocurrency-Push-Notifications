@@ -26,7 +26,9 @@ Getting CoinMarketCap API Set Up
 6. Congrats you are all set up!
 
 Running the Script
-1. From here, all you have to do is run the script!
-2. Type "python3 btc_sms.py" and your script will send a notification to your Slack channel every hour. 
+1. The only other thing you need to do is make the Bash script executable. Do this by opening a terminal and typing, 
+"sudo chmod +x slack_curl"
+2. From here, all you have to do is run the script!
+3. Type "python3 btc_sms.py" and your script will send a notification to your Slack channel every hour. 
 
 
